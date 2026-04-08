@@ -430,6 +430,8 @@ body.loaded p {
   width: 250px !important;
   height: 250px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 .info-item p {
@@ -466,8 +468,8 @@ body.loaded p {
       -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.01);
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.01); }
     #about .about-info-container .about-info {
-      text-align: right;
-      padding-right: 50px; }
+      text-align: center;
+      padding-right: 0; }
       #about .about-info-container .about-info .info-item img {
         width: 100px;
         -webkit-border-radius: 90px;
