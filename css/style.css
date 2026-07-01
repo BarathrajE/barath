@@ -440,6 +440,7 @@ body.loaded p {
   margin-bottom: 12px;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .info-item span {
@@ -448,6 +449,14 @@ body.loaded p {
   min-width: 100px;
   display: inline-block;
   margin-right: 15px;
+}
+
+/* Prevent long words (like emails) from overflowing their container */
+.info-item strong,
+.contact-item p,
+#contact .contact-item p a {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /*============ 5. About Section ============*/
